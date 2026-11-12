@@ -3,6 +3,5 @@ services:
     build: .
     shm_size: "1gb"
     ports:
-      - "6080:6080"   # browser desktop
-      - "7681:7681"   # browser terminal
+      - "8080:8080"
     restart: unless-stopped
